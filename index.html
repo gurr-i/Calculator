@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide" />
+    <link rel="stylesheet" href="./CSS/stylesheet.css" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div class="Calculator">
+        <h1>Calculator</h1>
+        <div class="Card">
+            <div id="viewer" class="viewer">0</div>
+        </div>
+        <table class="Table">
+            <tr>
+                <td><button id="Allclear" class="Allclear">AC</button></td>
+                <td><button id="clear" class="clear">Clear</button></td>
+                <td><button data-ops="pers" class="ops">%</button></td>
+                <td><button data-ops="div" class="ops">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="num" data-num="7">7</button></td>
+                <td><button class="num" data-num="8">8</button></td>
+                <td><button class="num" data-num="9">9</button></td>
+                <td><button data-ops="mult" class="ops">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="num" data-num="4">4</button></td>
+                <td><button class="num" data-num="5">5</button></td>
+                <td><button class="num" data-num="6">6</button></td>
+                <td><button data-ops="minus" class="ops">-</button></td>
+            </tr>
+            <tr>
+                <td><button data-num="1" class="num">1</button></td>
+                <td><button data-num="2" class="num">2</button></td>
+                <td><button data-num="3" class="num">3</button></td>
+                <td><button data-ops="plus" class="ops">+</button></td>
+            </tr>
+            <tr>
+                <td><button data-ops="negpos" class="ops">-/+</button></td>
+                <td><button data-num="0" class="num">0</button></td>
+                <td><button data-num="." class="num">.</button></td>
+                <td><button id="equals" class="equals" data-result="">=</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- <button id="reset" class="reset">Reset Universe?</button> -->
+</body>
+<script src="javascript/script.js"></script>
+
+</html>

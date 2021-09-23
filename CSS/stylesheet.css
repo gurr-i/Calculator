@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    color: #753422;
+    font-family: "Audiowide", sans-serif;
+}
+
+p {
+    color: #A7D0CD;
+}
+
+body {
+    background-color: #FFEBC9;
+}
+
+
+/* .div1 {
+    color: blueviolet;
+} */
+
+.viewer {
+    color: #B05B3B;
+    /* float: left; */
+    line-height: 3em;
+    /* text-align: right; */
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    /* width: 7.5em; */
+    /* height: 3em; */
+    /* margin-left: 2%; */
+    margin-left: 40%;
+    /* margin-right: auto; */
+    font-family: "Audiowide", sans-serif;
+    margin-top: 1cm;
+}
+
+button {
+    border: 0;
+    background: #eec98a;
+    color: #B05B3B;
+    cursor: pointer;
+    float: left;
+    font-family: "Audiowide", sans-serif;
+    margin: 0.25em;
+    width: 4em;
+    height: 4em;
+    shape-image-threshold: inherit;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+#reset {
+    width: 8em;
+    height: 4em;
+}
+
+button:hover {
+    background: #f3aa7f;
+}
+
+.Table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Card {
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    transition: 0.3s;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* margin-left: 15.7em;
+    margin-right: 15.7em; */
+}
